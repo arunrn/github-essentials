@@ -4,33 +4,31 @@
 01. Create a new repository (Ex: test) in GitHub
 Link to this repository will be: https://github.com/arunrn/test.git
 
-
 02. Go to your project folder (localhost) and initialise git for this project
 Command: ~/Project$  git init
 
-
 03. Next, we have to make sure that the GitHub files and the localhost Project folder are in sync (download and sync)
-a) Create a remote
-Command: ~/Project$ git remote add git-site https://github.com/arunrn/Project.git
+  a) Create a remote
+  Command: ~/Project$ git remote add git-site https://github.com/arunrn/Project.git
 
-b) Download online files to your localhost
-Command: ~/Project$ git fetch git-site
+  b) Download online files to your localhost
+  Command: ~/Project$ git fetch git-site
 
-c) Sync newly downloaded files with localhost project folder
-Command: ~/Project$ git merge git-site/master
+  c) Sync newly downloaded files with localhost project folder
+  Command: ~/Project$ git merge git-site/master
 
 Now the Github files would be in sync with your localhost project folder (but not necessarily vice versa, you could still have lots of files locally that needs to be synced online, which we will be doing next).
 
-
 04. Sync localhost project files with Github (upload and sync)
-a) Add files for committing 
-Command: ~/Project$ git add *
+  a) Add files for committing 
+  Command: ~/Project$ git add *
 
-b) Commit changes
-Command: ~/Project$ git commit -m 'Comments for this commit go here'
+  b) Commit changes
+  Command: ~/Project$ git commit -m 'Comments for this commit go here'
 
-c) Sync these changes to online version (upload)
-Command: ~/Project$ git push git-site master
+  c) Sync these changes to online version (upload)
+  Command: ~/Project$ git push git-site master
 
---
+
+Regards,
 arunrn@
