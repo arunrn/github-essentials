@@ -2,7 +2,7 @@
 
 
 01. Create a new repository (Ex: test) in GitHub
-Link to this repository will be: https://github.com/arunrn/test.git
+Link to this repository will be: https://github.com/arunrn/Project.git
 
 02. Go to your project folder (localhost) and initialise git for this project
 Command: ~/Project$  git init
