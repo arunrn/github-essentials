@@ -21,7 +21,10 @@ Now the Github files would be in sync with your localhost project folder (but no
 
 04. Sync localhost project files with Github (upload and sync)
   a) Add files for committing 
-  Command: ~/Project$ git add *
+  Command: ~/Project$ git add <name_of_file_that_changed>
+
+Note- If you want to add all files and subfolders at one go (recursively add all files, subfolders), then use a 'dot' instead of the file_name
+  Command: ~/Project$ git .
 
   b) Commit changes
   Command: ~/Project$ git commit -m 'Comments for this commit go here'
